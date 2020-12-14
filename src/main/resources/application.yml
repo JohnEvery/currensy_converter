@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    hibernate:
+      ddl-auto: create
+    properties:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/emphasoft_database
+    username: emphasoft
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+internal:
+  currency:
+    url:
+      https://openexchangerates.org/api/latest.json?app_id=7f33733b565d46f1b57136a3f758837d
+
+server:
+  port: 8081
