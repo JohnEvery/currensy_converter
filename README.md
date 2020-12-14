@@ -34,7 +34,7 @@ Application run on localhost port 8081.
 ### Sample JSON for Exchnange Service
 ##### Exchange customer : 
 ```sh
-{
+    {
       "userId": 1,
       "amount": 10000,
       "currencyFrom": "usd",
