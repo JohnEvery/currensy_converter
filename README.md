@@ -2,6 +2,10 @@
 
 Monolith Java application for conver currency.
 
+For currency rate use OpenExchangeRates API.
+```
+https://openexchangerates.org/
+```
 ### Technologies
 - Spring Boot
 - PostrgreSQL
